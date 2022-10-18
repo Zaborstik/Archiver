@@ -1,8 +1,13 @@
-package src;
+package com.javarush.task.task31.task3110;
 
-import src.exception.WrongZipFileException;
+import com.javarush.task.task31.task3110.command.Command;
+import com.javarush.task.task31.task3110.command.ExitCommand;
+import com.javarush.task.task31.task3110.exception.WrongZipFileException;
 
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Scanner;
 
 public class Archiver {
 

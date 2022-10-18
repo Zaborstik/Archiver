@@ -1,4 +1,4 @@
-package src;
+package com.javarush.task.task31.task3110;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
