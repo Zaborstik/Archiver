@@ -1,6 +1,6 @@
 package src.command;
 
-public class ZipContentCommand extends ZipCommand{
+public class ZipContentCommand extends ZipCommand {
     @Override
     public void execute() throws Exception {
 

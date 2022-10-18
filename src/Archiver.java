@@ -26,21 +26,6 @@ public class Archiver {
     }
 
     public static void main(String[] args) {
-        /*try (Scanner console = new Scanner(System.in)){
-            System.out.println("Введите полный путь архива (с именем файла)");
-            ZipFileManager zipFileManager = new ZipFileManager(Paths.get(scanner.nextLine()));
-
-            System.out.println("Введите путь к файлу, который будем архивировать");
-            zipFileManager.createZip(Paths.get(scanner.nextLine()));
-        } catch (Exception e){
-
-        }
-        try {
-            Command command = new ExitCommand();
-            command.execute();
-        }catch (Exception e){
-
-        }*/
 
         Operation operation = null;
         while (operation!=Operation.EXIT) {
