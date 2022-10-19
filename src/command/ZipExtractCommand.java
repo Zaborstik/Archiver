@@ -1,8 +1,8 @@
-package com.javarush.task.task31.task3110.command;
+package src.command;
 
-import com.javarush.task.task31.task3110.ConsoleHelper;
-import com.javarush.task.task31.task3110.ZipFileManager;
-import com.javarush.task.task31.task3110.exception.PathIsNotFoundException;
+import src.ConsoleHelper;
+import src.ZipFileManager;
+import src.exception.PathIsNotFoundException;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

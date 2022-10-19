@@ -1,6 +1,6 @@
-package com.javarush.task.task31.task3110.command;
+package src.command;
 
-import com.javarush.task.task31.task3110.ConsoleHelper;
+import src.ConsoleHelper;
 
 public class ExitCommand implements Command {
     @Override

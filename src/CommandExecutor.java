@@ -1,6 +1,6 @@
-package com.javarush.task.task31.task3110;
+package src;
 
-import com.javarush.task.task31.task3110.command.*;
+import src.command.*;
 
 import java.util.HashMap;
 import java.util.Map;
